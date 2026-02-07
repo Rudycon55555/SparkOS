@@ -208,7 +208,7 @@ Same as `/Store/Config`, but for settings.
 
 ### **/Store/Age**
 
-("Storage" pun --- clever.)
+("Storage" pun)
 
 Used for:
 
