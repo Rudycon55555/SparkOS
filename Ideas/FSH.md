@@ -38,9 +38,6 @@ Anything with strict permissions **cannot be overridden by root**.
 For **non‑GUI programs** that don't appear in the launcher.
 
 Structure:
-
-Code
-
 ```
 /Program/<ProgramName>/<Version>/
     Main.exec      (required)
@@ -64,9 +61,6 @@ SparkOS auto‑selects the **latest version** unless a specific version is reque
 Same model as `/Program`, but for **GUI apps** that appear in the launcher.
 
 Structure:
-
-Code
-
 ```
 /Application/<AppName>/<Version>/
     Main.exec      (required)
@@ -89,9 +83,6 @@ Rules:
 Holds system‑level libraries.
 
 Structure:
-
-Code
-
 ```
 /Targets/Libraries/<LibraryName>/<Version>/
     Dynamic/*.so
@@ -187,13 +178,11 @@ Rules:
 User‑installed GUI apps.
 
 Structure:
-
-Code
-
 ```
 Main.exec
 Icon.png
 Help.txt
+...other files
 
 ```
 
